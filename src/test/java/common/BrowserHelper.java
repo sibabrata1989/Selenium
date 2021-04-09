@@ -24,7 +24,7 @@ public class BrowserHelper
 		switch(TestConfig.browserEnv)
 		
 		{
-		case"chrome32":
+		case"chrome64":
 			System.setProperty("webdriver.chrome.driver", TestConfig.driverPath);
 			 driver = new ChromeDriver();
 			 break;

@@ -19,10 +19,10 @@ public class TestConfig
 		try
 		{
 		baseDir = System.getProperty("user.dir");
-		testDataDir = baseDir + "/../TestData/";
-		testConfigDir = baseDir + "/../TestConfig/";
-		testResultDir = baseDir + "/../TestResults/";
-		testResourcesDir = baseDir + "/../TestResources/";
+		testDataDir = baseDir + "/TestData/";
+		testConfigDir = baseDir + "/TestConfig/";
+		testResultDir = baseDir + "/TestResults/";
+		testResourcesDir = baseDir + "/TestResources/";
 		
 		//To create a folder name  like "Run_20170822_183800"
 		testRunDir = testResultDir + "Run_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + "/";
